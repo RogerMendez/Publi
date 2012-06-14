@@ -125,6 +125,7 @@ nav ul li a:hover{
 	float: left;
 }
 #menu2{
+	background:white;
 	border:solid blue 3px;
 	width:200px;
 }
