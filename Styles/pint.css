@@ -1,0 +1,49 @@
+
+.pin {
+	display: inline-block;
+	padding: 15px 15px 0;
+	font-size: 11px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+}
+.pin .PinHolder {
+	position: relative;
+}
+.Button {
+	border-radius: .3em;
+	box-shadow: 0 1px rgba(255,255,255,0.8),inset 0 1px rgba(255,255,255,0.35);
+	font-family:"helvetica neue",arial,sans-serif;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.Button.Button11 {
+	border-radius: 3px;
+	font-size: 9px;
+}
+.Button.WhiteButton{
+	background-color: #f0eded;
+	text-shadow: 0 1px rgba(255,255,255,0.9);
+}
+
+.pin .actions {
+	display: none;
+	position: absolute;
+	z-index: 3;
+	top: -8px;
+	left: -8px;
+}
+.pin .actions a {
+	clear: both;
+	float: left;
+	margin: 0 0 3px 0;
+	text-decoration:none;
+}
+.pin:hover .actions,.pin:hover .bottom {
+	display: block;
+}
+.pin .WhiteButton.Button11{
+	border-radius: 6px;
+	padding: 7px 9px;
+}

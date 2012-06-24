@@ -1,10 +1,15 @@
+
 *{margin:0}
 body{
-	background-color: #FFF;
+	background:url('../images/fondo.jpg') repeat;
+	/*background:".../images/fondo.jpg" ; 
+	/*background-color: #FFF;*/
+	font-family: 'Crafty Girls', serif;
+	font-size:14px;
 	/*display: inline-block;*/
 }
 header{
-	/*background:rgba(94,218,33,.3);*/
+	/*background:rgba(94,218,33,.3);
 	background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(237,171,57) 55%, rgb(255,162,31) 78%);
 	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(237,171,57) 55%, rgb(255,162,31) 78%);
 	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(237,171,57) 55%, rgb(255,162,31) 78%);
@@ -16,7 +21,7 @@ header{
 	left top,
 	color-stop(0.1, rgb(255,255,255)),
 	color-stop(0.55, rgb(237,171,57)),
-	color-stop(0.78, rgb(255,162,31)));
+	color-stop(0.78, rgb(255,162,31)));*/
 	display: inline-block;
 	width:100%;
 }
@@ -27,11 +32,15 @@ li{
 	list-style:none;
 }
 nav ul{
+	
+	border-radius:3px;
+	display:block;
 	font-size:0;
 	padding: 0;	
+	text-align:center;
 }
 nav ul li{
-	/*background:rgba(0,0,0,.7);*/
+	/*background:rgba(0,0,0,.7);
 	background-image: linear-gradient(left top, rgb(255,255,255) 0%, rgb(61,139,235) 0%, rgb(255,255,255) 100%);
 	background-image: -o-linear-gradient(left top, rgb(255,255,255) 0%, rgb(61,139,235) 0%, rgb(255,255,255) 100%);
 	background-image: -moz-linear-gradient(left top, rgb(255,255,255) 0%, rgb(61,139,235) 0%, rgb(255,255,255) 100%);
@@ -43,7 +52,7 @@ nav ul li{
 	right bottom,
 	color-stop(0, rgb(255,255,255)),
 	color-stop(0, rgb(61,139,235)),
-	color-stop(1, rgb(255,255,255)));
+	color-stop(1, rgb(255,255,255)));*/
 	border-radius:4px;
 	display: inline-block;
 	font-size:12px;
@@ -55,15 +64,16 @@ nav ul li{
 	width:10%;		
 }
 nav ul li a{
-	color: #30F;
-	display: block;
+	color: #fff;
+	display: inline-block;
 	font-weight:bold;
 	text-align:center;
 	text-decoration:none;
-	text-transform:uppercase;	
+	text-transform:uppercase;
+	display:inline-block;	
 }
 nav ul li:hover{
-	background-image: linear-gradient(left top, rgb(255,255,255) 0%, rgb(127,166,224) 0%, rgb(255,255,255) 100%);
+	/*background-image: linear-gradient(left top, rgb(255,255,255) 0%, rgb(127,166,224) 0%, rgb(255,255,255) 100%);
 	background-image: -o-linear-gradient(left top, rgb(255,255,255) 0%, rgb(127,166,224) 0%, rgb(255,255,255) 100%);
 	background-image: -moz-linear-gradient(left top, rgb(255,255,255) 0%, rgb(127,166,224) 0%, rgb(255,255,255) 100%);
 	background-image: -webkit-linear-gradient(left top, rgb(255,255,255) 0%, rgb(127,166,224) 0%, rgb(255,255,255) 100%);
@@ -74,15 +84,19 @@ nav ul li:hover{
 	right bottom,
 	color-stop(0, rgb(255,255,255)),
 	color-stop(0, rgb(127,166,224)),
-	color-stop(1, rgb(255,255,255)));
+	color-stop(1, rgb(255,255,255)));*/
+	background:#333;
+	border: 1px solid #000;
+	border-radius:5px;
+	box-shadow:0px 0px 5px 3px #000;
+	color:#000;
 }
 nav ul li a:hover{
-	color:#009;
+	color:#fff;
 }
-
 #pie{
 	
-	background-image: linear-gradient(bottom, rgb(255,142,3) 10%, rgb(237,171,57) 55%, rgb(255,255,255) 78%);
+	/*background-image: linear-gradient(bottom, rgb(255,142,3) 10%, rgb(237,171,57) 55%, rgb(255,255,255) 78%);
 	background-image: -o-linear-gradient(bottom, rgb(255,142,3) 10%, rgb(237,171,57) 55%, rgb(255,255,255) 78%);
 	background-image: -moz-linear-gradient(bottom, rgb(255,142,3) 10%, rgb(237,171,57) 55%, rgb(255,255,255) 78%);
 	background-image: -webkit-linear-gradient(bottom, rgb(255,142,3) 10%, rgb(237,171,57) 55%, rgb(255,255,255) 78%);
@@ -94,18 +108,21 @@ nav ul li a:hover{
 	color-stop(0.1, rgb(255,142,3)),
 	color-stop(0.55, rgb(237,171,57)),
 	color-stop(0.78, rgb(255,255,255))
-);
-	margin:-20px 0px 0px 0px;
+);*/
+	margin:20px 0px 0px 0px;
 	width:100%
 	}
-#todo{
+footer{
+	list-style:none;
+	}
+/*#todo{
 	background:#FFF	;
 	width:70%;
 	margin: 0px auto;
 	
-}
+}*/
 #login{
-	margin:10px 0px 0px 100px;
+	margin:10px 0px 0px 200px;
 	padding: 0px 20px;
 	width:33%;
 }
@@ -129,7 +146,7 @@ nav ul li a:hover{
 }
 #menu2{
 	background:white;
-	border:solid blue 3px;
+	border:solid #FFF 3px;
 	width:200px;
 }
 #contenempresas{
@@ -139,11 +156,12 @@ nav ul li a:hover{
 }
 .label{
 	border-top-right-radius: 100px 100px;
-	color: #36F;
+	color: #000;
 	width:100px;
 }
 .input{
-	border:#36F solid 2px;		
+	border:#000 solid 2px;
+	border-radius:5 px;		
 }
 .empresas{
 	background:gray;
